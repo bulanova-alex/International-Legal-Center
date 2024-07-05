@@ -1,3 +1,16 @@
-@import "blocks/_support.scss";
-
+@import "blocks/_benefit.scss";
 @import "blocks/_button.scss";
+@import "blocks/_contacts.scss";
+@import "blocks/_footer.scss";
+@import "blocks/_info.scss";
+@import "blocks/_service.scss";
+@import "blocks/_support.scss";
+@import "blocks/_tarif.scss";
+
+
+.title1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+}
