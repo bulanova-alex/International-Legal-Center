@@ -7,11 +7,6 @@ font-family: "Open Sans", sans-serif;
 
 
 
-h1, h2, h3, h4, p, span {
-    margin: 0;
-}
-
-
 body{
     background: #F4F7FA;  
     margin: 0;
@@ -27,7 +22,7 @@ body{
 
 
 
-.header-nav { 
+.nav-row { 
     margin: 55px auto;
     display: flex;
     align-items: center;
@@ -287,8 +282,9 @@ ul, ul li{ list-style: none;}
 .block1-sect4-text {
 }
 
-/*block support*/
 
+/*block support*/
+/*
 
 .block1-support {
 margin-top: 45px;
@@ -329,4 +325,4 @@ margin-bottom: 140px;
     font-weight: 400;
     line-height: 21px;
     color: #404040;
-}
+}*/
