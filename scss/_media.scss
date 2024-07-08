@@ -1,0 +1,229 @@
+@media (min-width:320px) and (max-width: 992px){
+
+
+    .container{
+        max-width: 992px;
+        padding: 0 20px;
+
+        .nav-row, .navigation{
+            display: none;
+        }
+    }
+    
+    .nav__mobile {
+        display: block;
+
+        margin-top: 22px;
+        margin-bottom: 50px;
+
+        &-row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-logo {
+            display: flex;
+            align-items: center;
+
+            width: 140px;
+            height: 45px;
+            margin-right: auto;
+
+            img{
+                width: 80px;
+                height: 45px;
+            }
+
+            &__name {
+                margin-left: 13px;
+                color:#3B1D8F;
+                font-family: "Roboto", sans-serif;
+                font-size: 12px;
+                line-height: 13px; 
+                font-weight: 300;
+            }
+        }
+
+        &-phone {
+            width: 50px;
+            height: 50px;
+
+            border: 0;
+            border-radius: 7px;
+            background-color: #F4F7FA;
+            background: linear-gradient(326.06deg, #2641D1 11.53%, #3333A3 74.32%);
+
+            padding-inline: 18px;
+            margin-right: 8px;
+        }
+
+        &-nav {
+            width: 50px;
+            height: 50px;
+            padding: 0px;
+
+            border: 0;
+            border-radius: 7px;
+            background-color: #F4F7FA;
+
+        }
+    }
+
+    .button {
+        padding: 13px 25px;
+
+        & a{
+            font-size: 12px;
+            font-weight: 500;
+        }
+    }
+
+
+
+    .header {
+        &-content {
+            margin-bottom: 72px;
+            justify-content: center;
+
+            height: 870px;
+        }    
+    }
+  
+    .left-inform {
+        text-align: center;
+        width: 90%;
+
+        &-header {
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+
+            width: auto;
+        }
+        &-text {
+            margin: 16px 0;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: -0.01em;
+            text-align: center;
+
+            width: auto;
+        }
+        &-img{
+            /*display: block;*/
+            width: 122px;
+            height: 122px;
+            margin-block: 16px;
+            margin-inline: auto;
+        }
+    }
+
+    .right-inform {
+        
+
+        &-mobimg{
+            display: block;
+            background-image: url(./../img/mobile/header-photo.svg);
+            background-size: cover;
+            background-position: center;     
+        }
+        &-deskimg{
+            display: none;
+        }
+    }
+    .oppotun-row {
+        flex-direction: column;
+        row-gap: 24px;
+        height: 405px;
+        margin-top: auto;
+        /* top: 55%; */
+        position: absolute;
+
+        &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 216px;
+        }
+
+        &-list {
+            line-height: 20px;
+            text-align: center;
+            padding-inline: auto;
+
+        }
+    }
+
+    .block{
+
+        &__logo{
+            width: 54px;
+            height: 40px;
+            margin-bottom: 24px;
+        }
+        &__header{
+            margin-bottom: 16px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            
+        }
+        &__text{
+            line-height: 18px;
+            
+        }
+
+        &__row{
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            &-box{
+                max-width: 300px;
+                grid-template-columns: repeat(auto-fill, 140px);
+               
+            }
+        }
+    }
+
+    .box{
+        &__title{     
+            font-size: 32px;
+            line-height: 30px;
+
+
+            &-large{
+                font-size: 32px;
+                line-height: 30px;
+            }
+            &-small{
+                font-size: 12px;
+                line-height: 30px;
+                letter-spacing: 0.17em;
+            }
+        }
+        &__text{
+            margin-top: 3px;
+            font-size: 10px;
+            line-height: 15px;
+        }
+    }
+
+    .box1 {
+        width: 140px;
+        height: 91px;
+        padding: 16px;
+    }
+    .box2, .box3 {
+        width: 124px;
+        height: 91px;
+        padding: 15px 12px;
+    }
+    .box4 {
+        width: 132px;
+        height: 110px;
+        padding: 16px;
+    }
+
+}
+
