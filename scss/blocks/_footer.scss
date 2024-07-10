@@ -6,23 +6,54 @@
         display: flex;
         align-items: center;
 
+        &-logo{
+            display: flex;
+            align-items: center;
+            width: 213px;
+            height: 63px;
+
+            img{
+                width: 87px;
+                height: 63px;
+            }
+            &__name{
+                margin-left: 16px;
+                color:#3B1D8F;
+                font-family: "Roboto", sans-serif;
+                font-size: 16px;
+                line-height: 19px; 
+                font-weight: 300;
+            }
+        }
+
+        &-intro{
+            font-size: 12px;
+            line-height: 20px;
+            color: #030303;
+            width: 227px;
+            margin-inline: 48px auto;
+        }
+
         &-socials {
+            margin-right: 90px;
 
             &__link {
+                display: inline-block;
                 text-decoration: none;
-                
+                border-radius: 10px;
+                border: 1px solid #CFDAE7;
+                width: 36px;
+                height: 36px; 
             }
             &__icon {
-               /* border-radius: 10px;
-                border: 1px solid #CFDAE7;*/
+                margin: 8.5px;
+                width: 18px;
+                height: 18px;
                 
-                color: #273895;
-                /*
-                path {transition: fill 0.2s ease-in;}
+                          
+            path {transition: fill 0.2s ease-in;}
                 
-                path &:hover {
-                   transform: fill #4f0579; 
-                }*/
+            &:hover path {fill: #4cc601df;}
             }    
         }
     }
@@ -36,8 +67,7 @@
         &-row {
             display: flex;
             align-items: center;
-            padding-left: auto;
-            padding-right: auto;
+
 
             &__text1 {
                 color: #7A7A7A;

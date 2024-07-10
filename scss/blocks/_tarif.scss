@@ -11,13 +11,16 @@
     &__btn{
         margin-bottom: 42px;
         display: flex;
-        gap: 64px;
+        column-gap: 64px;
         justify-content: center;
         align-items: center;
 
         &-year{
         font-size: 20px;
         line-height: 30px;
+        transition: background-color 0.2s ease-in border-radius 0.2s ease-in;
+
+        &:hover{background-color: #334cdc79; border-radius: 5px;}
                
             a{
                 text-decoration: underline dashed #273895;
@@ -29,6 +32,9 @@
     }
 
     &__row{
+        max-width: 1062px;
+        margin-inline: auto;
+
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -48,9 +54,15 @@
             align-items: center;
             background: #FFFFFF;
             border-radius: 15px;
-            max-width: 1062px;
+            width: 1062px;
             padding-block: 48px;
             padding-inline: 200px;
+
+            transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+            &:hover{
+                transform: translateY(-5px);
+                box-shadow: 0px 4px 15px rgba(12, 53, 123, 0.687);
+            }
         }
 
         &-secnd { 
@@ -63,6 +75,12 @@
             padding: 48px; 
             background: #FFFFFF;
             border-radius: 15px;
+
+            transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+            &:hover{
+                transform: translateY(-5px);
+                box-shadow: 0px 4px 15px rgba(12, 53, 123, 0.687);
+            }
         }
   
         &-third { 
@@ -75,6 +93,12 @@
             padding: 48px; 
             background: #FFFFFF;
             border-radius: 15px;
+
+            transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+            &:hover{
+                transform: translateY(-5px);
+                box-shadow: 0px 4px 15px rgba(12, 53, 123, 0.687);
+            }
         }
   
         &-fourth { 
@@ -87,6 +111,12 @@
             padding: 48px;
             background: #FFFFFF;
             border-radius: 15px; 
+
+            transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+            &:hover{
+                transform: translateY(-5px);
+                box-shadow: 0px 4px 15px rgba(12, 53, 123, 0.687);
+            }
         }
   
         &-fifth { 
@@ -99,6 +129,12 @@
             padding: 48px;
             background: #FFFFFF;
             border-radius: 15px; 
+
+            transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+            &:hover{
+                transform: translateY(-5px);
+                box-shadow: 0px 4px 15px rgba(12, 53, 123, 0.687);
+            }
         }
 
         &-titlefree{
@@ -144,17 +180,26 @@
             line-height: 24px;
             color: #404040;
 
+            li{
+                list-style-image: url(/img/main/service/triangle-litle.svg);
+                list-style-position: outside;
+                margin-bottom: 16px;
+                margin-left: 1em;
+                padding-left: 8px;
+            }
+            /*
             p {--paragraphMarginBottom: 16px;}
             p::before{
                 content: '';
                 display: inline-block;
-                background-image: url(.././../img/main/tarif-trig.svg);
+                background-image: url(.././../img/main/service/triangle-litle.svg);
                 width: 7px;
                 height: 7px;
                 margin-right: 15px;
-            }
+            }*/
 
            /*
+           
            додумать перенос списка в 1 грите
            .tarif1{
                 display: flex;
@@ -175,7 +220,7 @@
             &::after{
                 content: '';
                 display: inline-block;
-                background-image: url(.././../img/main/strelka.svg);
+                background-image: url(/img/main/strelka.svg);
                 width: 15px;
                 height: 15px;
                 vertical-align: middle;

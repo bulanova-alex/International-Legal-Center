@@ -8,11 +8,13 @@
 @import "blocks/_support.scss";
 @import "blocks/_tarif.scss";
 
-@import "_media.scss";
+@import "media.scss";
 
 .title1 {
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
     text-align: center;
+    color: #303030;
+
 }

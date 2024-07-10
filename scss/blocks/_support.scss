@@ -1,6 +1,7 @@
 
 .support{
     margin-top: 45px;margin-bottom: 140px;
+
 } 
 
 .support__header {
@@ -8,6 +9,8 @@
     font-weight: 700;
     line-height: 24px;
     text-align: center;
+    color: #303030;
+
 }
 
 .support__row {
@@ -24,6 +27,8 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        border-radius: 10px;
+        justify-content: center;
             
         &-img{
             width: 159px;
